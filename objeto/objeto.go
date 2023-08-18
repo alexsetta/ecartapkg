@@ -1,9 +1,10 @@
 package objeto
 
 type Objeto struct {
-	id string
+	id      string
+	version string
 }
 
 func New(id string) *Objeto {
-	return &Objeto{id: id}
+	return &Objeto{id: id, version: "0.1"}
 }
