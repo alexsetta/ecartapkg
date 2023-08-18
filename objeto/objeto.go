@@ -1,8 +1,7 @@
 package objeto
 
 type Objeto struct {
-	id     string
-	codigo int
+	id string
 }
 
 func New(id string) *Objeto {

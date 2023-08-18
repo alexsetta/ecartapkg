@@ -1,8 +1,7 @@
 package arquivo
 
 type arquivo struct {
-	id   string
-	nome string
+	id string
 }
 
 func New(id string) *arquivo {

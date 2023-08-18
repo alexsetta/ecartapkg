@@ -1,8 +1,7 @@
 package matriz
 
 type matriz struct {
-	id     string
-	codigo int
+	id string
 }
 
 func New(id string) *matriz {
