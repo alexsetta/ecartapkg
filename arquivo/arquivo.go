@@ -1,12 +1,10 @@
 package arquivo
 
-import "fmt"
-
 type arquivo struct {
+	id   string
 	nome string
 }
 
-func New() *arquivo {
-	fmt.Println("Criando um novo arquivo")
-	return &arquivo{}
+func New(id string) *arquivo {
+	return &arquivo{id: id}
 }

@@ -1,12 +1,10 @@
 package objeto
 
-import "fmt"
-
 type Objeto struct {
+	id     string
 	codigo int
 }
 
-func New() *Objeto {
-	fmt.Println("Criando um novo objeto")
-	return &Objeto{}
+func New(id string) *Objeto {
+	return &Objeto{id: id}
 }

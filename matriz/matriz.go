@@ -1,12 +1,10 @@
 package matriz
 
-import "fmt"
-
 type matriz struct {
+	id     string
 	codigo int
 }
 
-func New() *matriz {
-	fmt.Println("Criando uma nova matriz")
-	return &matriz{}
+func New(id string) *matriz {
+	return &matriz{id: id}
 }
