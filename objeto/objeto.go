@@ -6,5 +6,5 @@ type Objeto struct {
 }
 
 func New(id string) *Objeto {
-	return &Objeto{id: id, version: "1.4.2"}
+	return &Objeto{id: id, version: "1.4.3"}
 }
